@@ -1,0 +1,91 @@
+body {
+   background-color:chartreuse;
+   padding: 100px 0px 0px 0px;
+   h1 {
+      text-align: center;
+}
+}
+.conteiner{
+   display: flex;
+   justify-content: space-around;
+}
+.conteiner-time {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: auto;
+   div {
+      font-size: 50px;
+      line-height: 50px;
+   }
+   span {
+      font-size: 50px;
+      padding: 0px 5px;
+      line-height: 50px;
+   }
+}
+.conteiner-button {
+   display: flex;
+   justify-content: center;
+   padding: 100px 0px 0px 0px;
+}
+.start {
+   margin: 0px 10px 0px 0px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   background-color: green;
+   box-shadow: 0px 5px 0px black;
+   border-radius: 5px;
+}
+.stop {
+   margin: 0px 10px 0px 0px;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   background-color: red;
+   box-shadow: 0px 5px 0px black;
+   border-radius: 5px;
+}
+.round {
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   background-color: yellow;
+   border-radius: 5px;
+   box-shadow: 0px 5px 0px black;
+}
+.conteiner-round {
+   //margin: 100px 0px 0px 0px;
+   display: flex;
+   //justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   width: 400px;
+   border: 2px dashed;
+}
+
+.push{
+   box-shadow: 0px 1px 0px black;
+}
+.pause{
+   background-color: blue;
+   width: 100px;
+   height: 40px;
+   cursor: pointer;
+   box-shadow: 0px 5px 0px black;
+   border-radius: 5px;
+   margin: 0px 10px 0px 0px;
+}
+.cancel{
+   display: flex;
+   justify-content: end;
+   width: 100%;
+   img{
+      width: 30px;
+      height: 30px;
+      display: block;
+      padding: 10px;
+      cursor: pointer;
+   }
+}
